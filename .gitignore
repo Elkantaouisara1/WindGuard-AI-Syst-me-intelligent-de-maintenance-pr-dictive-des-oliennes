@@ -1,0 +1,20 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Raw datasets
+data/raw/
+
+# Large files
+*.mat
+
+# Frontend video
+frontend/public/videos/
+
+# Jupyter
+.ipynb_checkpoints/
