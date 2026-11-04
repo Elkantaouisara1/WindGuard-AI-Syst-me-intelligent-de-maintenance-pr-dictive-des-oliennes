@@ -1,20 +1,24 @@
 # Python
+__pycache__/
+*.py[cod]
 .venv/
 venv/
-__pycache__/
-*.pyc
-
-# Environment
-.env
-
-# Raw datasets
-data/raw/
-
-# Large files
-*.mat
-
-# Frontend video
-frontend/public/videos/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# Environment variables
+.env
+.env.*
+# Raw datasets
+data/raw/
+# Build
+dist/
+build/
+
+# IDE
+.vscode/
